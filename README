@@ -1,3 +1,3 @@
-This is a SHOPP Plugin gateway that converts the final amounts into US Dollars using the Yahoo finance exchange rate at that time before sending the details off to PayPal. It's hardcoded to work with ZA Rand but you can easily change the currency. 
+This is a Wordpress Shopp Plugin gateway that converts the final amounts into US Dollars using the Yahoo finance exchange rate at that time before sending the details off to PayPal. It's hardcoded to work with ZA Rand but you can easily change the currency. 
 
 To use, drop into the Shopp plugin directory in the sub-folder 'gateways/PayPal'. You can now select 'PayPal Auto Convert' as a payment option in the settings for the Shopp plugin.
