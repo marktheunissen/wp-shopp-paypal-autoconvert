@@ -13,6 +13,10 @@
  * $Id$
  **/
 
+// If the original PayPal Express payment option is not enabled, we need 
+// to include the code.
+include_once('PayPalExpress.php');
+
 class PayPalExpressAutoConvert extends PayPalExpress implements GatewayModule {
 
 	// Override the purchase function so that we can automatically convert up
